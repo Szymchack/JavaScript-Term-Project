@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkseagreen;
+    font-size: 16pt;
+    background-image: url('../media/frog2.webp');
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+footer, header{
+    background-color:darkgreen;
+    opacity:0.75%;
+    width:70%;
+    
+}
+article{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+section{
+    flex:1;
+    padding:30px 5px 15px 20px;
+    min-width:75%;
+    max-width:100%;
+    min-height:4px;
+    opacity: 0.5;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: size 2em;
+    color:#69fd7d;
+    text-shadow:2px 2px #073261;
+    text-align:center;
+}
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font:2em;
+    text-shadow:2px 2px seagreen;
+    width:10%;
+    opacity:0.5%;
+    background-color:rgb(5, 250, 111);
+    padding:10px 5px 15px 20px;
+    opacity:0.5;
+    position: relative;
+    border-radius:100%;
+}
+nav {
+    margin:55px;
+    width:85%;
+    height:auto;
+}
+nav ul {
+    background: green;
+    box-shadow: 6px 6px 6px #44d69e;
+    padding: 10px;
+    border-radius: 20px; 
+    list-style: none;
+    position: center;
+    color:black;
+    font-weight:900;
+}
+nav ul li {
+    display:inline-table;
+    margin:10px;
+    padding:5px;
+    color:black;
+}
+nav ul li:hover {
+    color:greenyellow;
+    font-size: 1em;
+}
+nav ul li a {
+    display: block;
+    padding:5px;
+    color:darkred;
+    text-decoration: none;
+}
+nav ul li:hover a {
+    color: darkgreen;
+    text-decoration: none;
+}
+nav ul li:hover > ul {
+    display:flex;
+    flex-direction:column;
+}
+
+nav ul ul {
+    display: none;
+    background:seagreen;
+    border:2px solid black;
+    border-radius: 0px; 
+    padding: 0px;
+    position: absolute; 
+    font-size:16px;
+    z-index:10; 
+}
+
+nav ul ul li {
+    display:block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+    position: relative;
+    text-align:center;
+    background: #b3db7f;
+}
+nav ul ul li a {
+    padding: 15px;
+    color: lightskyblue;
+}     
+nav ul ul li a:hover {
+    background: #1f3650;
+    color: lightblue;
+}
